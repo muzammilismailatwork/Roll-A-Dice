@@ -74,7 +74,13 @@
     align-items: center;
 }
 .buttonSection img{
-    
+    height: 80px;
+    width: 80px;
+}
+.buttonSection button{
+    background: linear-gradient(to right bottom, rgb(224, 170, 170) , rgb(255, 0, 0));
+    border-radius: 20px;
+    color: white;
 }
 
 @media (max-width: 800px) {
@@ -82,7 +88,19 @@
       width: 100%;
       height: 30rem;
       flex-direction: column;
-
     }
-
+    .buttonSection{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 290px;
+    }
+    .buttonSection button{
+        font-size: 0.9rem;
+    }
+    #dice{
+        position: relative;
+        top: -590px;
+        left: 30px;
+    }
   }
