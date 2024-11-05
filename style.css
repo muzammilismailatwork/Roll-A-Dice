@@ -96,11 +96,18 @@
     top: 290px;
     }
     .buttonSection button{
-        font-size: 0.9rem;
+        font-size: 0.79rem;
     }
     #dice{
         position: relative;
         top: -590px;
-        left: 30px;
+        left: 45px;
+    }
+    .main{
+        height: 100vh;
+        overflow: hidden;
+    }
+    .gameArea{
+        position: relative;
     }
   }
