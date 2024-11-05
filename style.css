@@ -82,6 +82,10 @@
     border-radius: 20px;
     color: white;
 }
+.activePlayer{
+    background: linear-gradient(to right bottom, rgb(235, 199, 199) , rgb(61, 27, 255)); 
+
+}
 
 @media (max-width: 800px) {
     .gameArea {

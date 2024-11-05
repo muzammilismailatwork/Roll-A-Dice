@@ -13,29 +13,29 @@
     <div class="container-fluid main">
         <div class="row gameArea">
             <div class="buttonSection">
-                <button class="px-2 py-1"><i class="fas fa-trophy"></i> New Game</button>
+                <button class="px-2 py-1" onclick="newGame()"><i class="fas fa-trophy"></i> New Game</button>
                 <img src="./assets/1.png" alt="" class="image-fluid" id="dice">
-                <button class="px-2 py-1"><i class="fas fa-dice-d6"></i> Roll Dice</button>
-                <button class="px-2 py-1"><i class="fas fa-hand-holding-heart"></i> Hold</button>
+                <button class="px-2 py-1" onclick="rollDice()"><i class="fas fa-dice-d6"></i> Roll Dice</button>
+                <button class="px-2 py-1" onclick="hold()"><i class="fas fa-hand-holding-heart"></i> Hold</button>
             </div>
-            <div class="players player1">
+            <div class="players player1 activePlayer">
                 <div class="section1">
-                    <h1>Player 1</h1>
-                    <h2 class="totalScore">0</h2>
+                    <h1 id="player1">Player 1</h1>
+                    <h2 class="totalScore" id="totalScore1">0</h2>
                 </div>
                 <div class="section2">
                     <h5 class="px-2 py-1">CURRENT </h5>
-                    <h2 class="px-3">0</h2>
+                    <h2 class="px-3" id="currentScore1">0</h2>
                 </div>
             </div>
             <div class="players player2">
                 <div class="section1">
-                    <h1>Player 2</h1>
-                    <h2 class="totalScore">0</h2>
+                    <h1 id="player2">Player 2</h1>
+                    <h2 class="totalScore" id="totalScore2">0</h2>
                 </div>
                     <div class="section2">
                     <h5 class="px-2 py-1">CURRENT</h5>
-                    <h2 class="px-3">0</h2>
+                    <h2 class="px-3" id="currentScore2">0</h2>
                  </div>
             </div>
         </div>
