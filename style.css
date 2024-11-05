@@ -100,12 +100,12 @@
     top: 290px;
     }
     .buttonSection button{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     #dice{
-        position: relative;
-        top: -590px;
-        left: 30px;
+        position: absolute;
+        top: -380px;
+        left: 130px;
     }
     .main{
         height: 100vh;
